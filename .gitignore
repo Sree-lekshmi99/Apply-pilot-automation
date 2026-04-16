@@ -29,3 +29,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+__pycache__/
+*.log
+.DS_Store
