@@ -1,11 +1,8 @@
-# ApplyPilot — The Application Desk4
+# ApplyPilot — The Application Desk
 A local-first, AI-powered job application manager built with React + Vite. ApplyPilot helps you go from job link to sent application in one place scraping the job, matching your resume, improving it, drafting outreach, finding the right people on LinkedIn, answering application questions, and tracking everything with visual accountability.
  ## Demo
 
-## Demo
-
-https://github.com/Sree-lekshmi99/Apply-pilot-automation/blob/main/apply_pilot.mp4
----
+[![ApplyPilot Demo](https://img.youtube.com/vi/h3Zk2FtEJ1U/maxresdefault.jpg)](https://youtu.be/h3Zk2FtEJ1U) ApplyPilot helps you go from job link to sent application in one place — scraping the job, matching your resume, improving it, drafting outreach, finding the right people on LinkedIn, answering application questions, and tracking everything with visual accountability.
  
 ## Features
  
