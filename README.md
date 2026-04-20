@@ -1,6 +1,6 @@
 # ApplyPilot — The Application Desk
  
-A local-first, AI-powered job application manager built with React + Vite. ApplyPilot helps you go from job link to sent application in one place — scraping the job, matching your resume, improving it, drafting outreach, finding the right people on LinkedIn, answering application questions, and tracking everything with visual accountability.
+A local-first, AI-powered job application manager built with React + Vite. ApplyPilot helps you go from job link to sent application in one place scraping the job, matching your resume, improving it, drafting outreach, finding the right people on LinkedIn, answering application questions, and tracking everything with visual accountability.
  
 ---
  
@@ -10,7 +10,7 @@ A local-first, AI-powered job application manager built with React + Vite. Apply
 Paste any job posting URL and ApplyPilot fetches the page via the Jina Reader API, then uses OpenAI to auto-extract the job title, company name, and full job description. No copy-pasting required. You can also fill in the fields manually.
  
 ### 2. Resume Matching
-Upload one or more resume PDFs. ApplyPilot uses OpenAI to compare all of them against the job description and pick the best-matching one — with a score out of 100 and a short explanation of why it was chosen.
+Upload one or more resume PDFs. ApplyPilot uses OpenAI to compare all of them against the job description and pick the best-matching one with a score out of 100 and a short explanation of why it was chosen.
  
 ### 3. Resume Improvements
 Get a detailed, ATS-focused resume review for the target role. The AI compares your resume against the job description and gives you:
@@ -21,7 +21,7 @@ Get a detailed, ATS-focused resume review for the target role. The AI compares y
 - Missing exact-match terms already supported by your experience
 - Summary changes
 - A final edit checklist
-Nothing is fabricated — only existing experience is reframed to better match the job description's language. Supports optional custom instructions (e.g. "I'm a career changer from finance" or "focus on leadership keywords").
+Nothing is fabricated  only existing experience is reframed to better match the job description's language. Supports optional custom instructions (e.g. "I'm a career changer from finance" or "focus on leadership keywords").
  
 ### 4. Outreach Messages
 Generates three ready-to-send messages:
@@ -38,7 +38,7 @@ Generates 5 targeted LinkedIn people-search links using the scraped company name
 Each result shows the contact type, why they're worth reaching out to, the search terms used, and a direct link to open the LinkedIn search.
  
 ### 6. Application Questions
-Paste any question from an application form — "Why do you want to work here?", "Describe a challenge you overcame", cover letter prompts — and get a concise, first-person, resume-backed answer. Supports optional custom instructions for word limits, tone, or focus areas.
+Paste any question from an application form like "Why do you want to work here?", "Describe a challenge you overcame", cover letter prompts and get a concise, first-person, resume-backed answer. Supports optional custom instructions for word limits, tone, or focus areas.
  
 ### 7. Application Tracker
 A full inline-editable table of all your saved applications. Tracks:
@@ -141,7 +141,7 @@ cp .env.example .env
 VITE_OPENAI_API_KEY=your_openai_api_key_here
 ```
  
-You can also enter your API key at runtime in the Settings modal — it stays in memory only and is never persisted to disk.
+You can also enter your API key at runtime in the Settings modal and it stays in memory only and is never persisted to disk.
  
 ### Run Locally
  
